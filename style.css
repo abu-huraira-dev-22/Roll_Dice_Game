@@ -18,4 +18,18 @@
     height: 60%;
     background-color: white;
     border-radius: 20px;
+    display: flex;
+}
+
+.player{
+    width: 50%;
+    background-color: blue;
+}
+
+#player1{
+    background-color: #d9a3b0;
+}
+
+#player2{
+    background-color: #ad6e8d;
 }
