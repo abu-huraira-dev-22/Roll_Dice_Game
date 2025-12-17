@@ -86,3 +86,99 @@
 .active{
     background-color: #d9a3b0;
 }
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+/* Tablets */
+@media (max-width: 1024px) {
+    #mainBox {
+        width: 80%;
+        height: 70%;
+    }
+
+    .detailsAndTotalScore h1 {
+        font-size: 70px;
+    }
+
+    .detailsAndTotalScore h3 {
+        font-size: 30px;
+    }
+
+    .turnScore {
+        font-size: 24px;
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+    #mainBox {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .player {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    #centerArea {
+        position: static;
+        transform: none;
+        height: auto;
+        gap: 15px;
+        margin: 20px 0;
+        align-items: center;
+    }
+
+    #centerArea img {
+        width: 80px;
+    }
+
+    .btn {
+        width: 140px;
+        font-size: 16px;
+    }
+
+    .detailsAndTotalScore h1 {
+        font-size: 60px;
+    }
+
+    .detailsAndTotalScore h3 {
+        font-size: 26px;
+    }
+
+    .turnScore {
+        font-size: 22px;
+    }
+}
+
+/* Small Phones */
+@media (max-width: 480px) {
+    .detailsAndTotalScore h1 {
+        font-size: 45px;
+    }
+
+    .detailsAndTotalScore h3 {
+        font-size: 22px;
+    }
+
+    .turnScore {
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+
+    .btn {
+        width: 120px;
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    #centerArea img {
+        width: 65px;
+    }
+}
